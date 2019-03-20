@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Главная</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container col-xl-8 col-md-8">
+    <form action="academy.php" method="post">
+    <div class="form-group">
+    <label for="nameC">Фамилия, Имя и Отчество</label>
+    <input type="text" class="form-control" name="Name" id="nameC" placeholder="Фамилия И.О.">
+    </div>
+    <div class="form-group">
+        <label for="mobileC">Номер телефона</label>
+        <input type="text" class="form-control" name="Mobile" id="mobileC" placeholder="8-XXX-XXX-XX-XX">
+    </div>
+
+    <div class="form-group">
+            <label for="emailC">Электронная почта</label>        
+            <input type="email" class="form-control" name="Email" id="emailC" placeholder="example@mail.ru">
+    </div>
+    
+    <div class="form-group">
+        <label for="birthday">Дата рождения</label>
+            <input type="date" class="form-control" name="Birthday" id="birthday">
+    </div>
+    
+    <div class="form-group">
+        <label for="comment">Комментарии</label>
+        <textarea class="form-control" rows="4" name="Comment" id="comment"></textarea>
+    </div>
+    
+    <input type="submit" class="btn btn-primary" value="Отправить">
+
+    </form>
+    </div>
+        
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
