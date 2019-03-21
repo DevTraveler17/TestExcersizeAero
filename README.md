@@ -1,11 +1,9 @@
-h1 тестовое задание
+тестовое задание
 ---
-h2 инструкция по созданию базы данных "aero" с помощью **SQL** запроса:
----
+инструкция по созданию базы данных "aero" с помощью **SQL** запроса:
 **CREATE DATABASE aero**
----
-h2 создание таблицы "academy" с помощью **SQL** запроса:
----
+--- 
+создание таблицы "academy" с помощью **SQL** запроса:
 **CREATE TABLE academy (**
 **id INT PRIMARY KEY AUTO_INCREMENT,**
 **name VARCHAR(50) NOT NULL,**
