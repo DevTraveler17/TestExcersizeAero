@@ -2,7 +2,7 @@
 ---
 инструкция по созданию базы данных "aero" с помощью **SQL** запроса:
 ```sql
-CREATE DATABASE aero
+CREATE DATABASE aero;
 ```
 --- 
 создание таблицы "academy" с помощью **SQL** запроса:
