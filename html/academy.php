@@ -27,7 +27,6 @@
 
         setlocale(LC_ALL, "rus");
         require_once 'init.php';
-        
         require_once 'validEmail.php';           
         require_once 'validDate.php';           
         require_once 'validFIO.php';
@@ -35,15 +34,10 @@
 
         $comment = mysqli_real_escape_string($connect, $comment);
         $comment = htmlspecialchars($comment);
-        
-        //$query = 'INSERT INTO '.$table_name.' (name, secondname, thirdname, telephone, email, birthday, comment)
-        //values ('.$FIO["name"].', 
-        //'.$FIO["secondName"].', 
-        //'.$FIO["thirdName"].', 
-        //'.$tel.', 
-        //'.$email.', 
-        //'.$printDate.',
-        //'.$comment.');
+        if($GLOBALS["index"] == 0) {
+        require_once 'query.php';
+        echo'<div class="alert alert-success" role="alert">Данные успешно занесены в таблицу</div>';
+        }
         mysqli_close($connect);
 
 //    } else {
